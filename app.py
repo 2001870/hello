@@ -28,9 +28,3 @@ elif st.session_state.page == 'holiday':
     if st.button('🥮 返回首页  🌕', key='return_button', help='点击返回首页'):
         st.session_state.page = 'main'
 
-    # 使用一个可公开访问的图片替换原来的 GIF
-    st.markdown("""
-        <div style="display: flex; justify-content: center;">
-            <img src="https://media.giphy.com/media/3o7buvi6c8s0O0h2dK/giphy.gif" style="width: 300px;">
-        </div>
-    """, unsafe_allow_html=True)
